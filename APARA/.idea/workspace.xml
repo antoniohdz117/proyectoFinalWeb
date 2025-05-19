@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0b738fc-34b6-4021-8898-a2b76d4e3b6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/src/components/Perfil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/03bbe3c2bf1f97b57c672c1de9644ca34326beb354a46fcaf964f220aafec39d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/0413b7e97e928d49e0ee14b67d832b2023534785749786b609eaf86959ac46db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/0565f45a4692c0950ebb8194edfd739fd3d2dcc67889a9fe72226d4f483a6e4f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/05a0f1196c0aac9491d82381f2ce613c664e926306c54be1a75cc35a1cd92684.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/05b9bc60087a4d6d2f5e189bc08c6203bf0af02bff0ec7f1a08362b763cf8735.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/093b586ac0f2787bb9dda009cddb053233c2f914d2b6dbce6777a0595dd0dd9b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/0a69ead9c591160c15f8e03274fca05128a81dc5282f3ddacd2d92485c2f1e8a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/0cd87ef1f4855912dcb4e4ab58e01061862958f936e976fb7bce42b10c736d93.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/0db665e9ae98642fec3b3343b81f57677f2a38d34e9528b54572d8578ba4cfcb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/0e22f648fd3bb2ca3cfbd2a558511463c1c23060d717c7843fa4044f83c27bec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/0fe6c64fe90e559da6cbccaf80cf12001c2d6c2617cadb470294bf612833c787.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/10a22e8c23fe8db8c695e3ed4d33b853e05a9303e30367792e7ea65e36339c35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/10bb7f29df3e2b92d42c399d9a14371566827ffe337cad7b482f69ec5556d945.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/12df4771d20d10cdeef8ee43469ebb8c25ac513a807c8e5730834cfa90a38318.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/152c6ea6ae9ac3b7124a9b8af1d027c5c1f4bff55cca634c4439689b39d90b0e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/15471b8742bf7991a98f140ba747345991c385ea514d98bedd20ecff33e6fed4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/1570baecb6ca08d01129e77eeabe4eb39f76c3e92c30bec3d49bf8d97e9216d2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/165f3d8752988f6a1daea4a443677d31e7ee18f8d4a6ed5d63ee726c54a0c89b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/17ef4d97a53d020aad39dd7d03a633626a6e53d1445ff4211a098e71cbf6d1a4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/1893cbbb28ef7f4d798bd5abe8bb32aa8e2bd3b198f4eab50f10adf58f8471b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/1a70cfceb3b368f1f58cc709865bf3ecc2b8d12f046f83289b38cc93316bcf74.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/1b685665468dd475f4f0a1181e7509618a88988acb5c06abde21766c2a6507d6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/1c116cf72c68c8b93132399e6347c0a0a161dd119069cc7ebab1baa0efe869da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/1f54947b04306ce817b2a501b2a1cbd811fab4f8cc0fded1a48a2db2b8c3c9d2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/1f55b99652a46db2db548a8b609b8090ae0cb2a53194e1cd31e1defc6ec83045.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/1f5dc5ca044635fa6305706e5f8a201195d2c25f85f646757b176ad11a5783b8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/1f9aebb8e40356f47cb8c11643afc51396ffb7a12c86ef4bf61988c90e17a61b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/22c230f4f79c1a215c877b30fbb3a497070f5b33f93b77a7a51f8c3834e5f829.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/22d5e070c211eab21a3e1013f4c80894706f0b29864163dd719b8f9a7d289dff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/2315fad29c70903a4bb1433a3d71ad667f7d46ec6aeb09d880b14cb8730e7183.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/2464d288c339c8add3e5a3779fdb72d884bc20f6996bed5df3932e5c0b0dfe37.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/252ce60fa40eb228264a1acad60686016acae110768cd1dc337872a2bdb16689.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/26abb8e08265d479cb68f53bf6de9b7b7d6188171a8b1d1bd7f23d03165be7e2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/26c265b948d06373b7232bb8b450b114ebf3babd49df1dae1f32e9e3d5513a19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/2a2be6633857e13a1291e6aa1dcd7563991de38979d148be34063f98929e76de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/2bb049a6ec5d3cf39397c793e5b2ed16b398960e1b57d761cd4a45e8f853da8d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/2dd919eaaafcc4d898b88ab3fc1fb9bf17837e6a068315eadc54e51c7c6272c8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/31a1fd97538bc5d65830e66fcdacc46d5fdbadef687d78732f50a0030c7183d2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/31e48b77c6f9f532c747e2e39c361474006c298701dd6764190527cf10dd0a19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/348c5ae85abf01a0099aa987cb629a25b03945b4f933b9f0cbc603cb379cc7af.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/354a8c6a48bdcac77f7ad4a4a9811d3f98e4d548b046b65733a6f5ecfbd09def.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/36ac4f9c59072c90a3e86dffe6764067c73f0b0cb0db80003ce330fd1e626cb2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/3740657ad934e21cfbdd3dc2ed9228c9e11ab03e3b9b1091dbf05c69898997e7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/37de7b5f4990e520b6bb9bcd86fbbbf7e61bed02c902f5a59a6dacd42844603c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/39f8736733a4df54fad2421d37287eaa8532781e954306b84722d017739b50ed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/3a7978681a969cb524a8a2b7c9fa9dc2d46a9da3b91d7291f9e5a8550405c5fb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/3c31de05a15f1d9d51c8dc7c1adf2a6ba833b9922ee8ed1db5f738e19d3c3bba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/3d01be7e99934f713c08bf2fba5c7fc09c74ae1f88c987522ac2ca503ff3dd25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/3f553a7c3f32c976803baab43d3ba583d200b6d35c9a1eb4e62573249992fbd2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/417dbde97e32cf22031bd55ae8bc5043983c4c5c31fe2e9a17750d738c6685db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/41f4ca3038e6386505bfec6ac2a79a741e4166a67b7977fb52ab30c5454d01f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/427691fa8a6076d9f8d3e02c7d3c8ad1a20833c80aa44be51196d76f1b19608d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/4434caedd465f7da2793a0a9a8abde0cbd322082f76597a37d6b53c790c83dce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/45c0bac67fcf82ca880bb38fab793c2bed9b28a8925c29625c1c1e6296c06c13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/475507b84e1d361cd9c2933746771ba158e779972b03acaa16c5359cd3e52dba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/4a3528217330fabb48e19284c72347f614dfa5ac9e23124f9698de5f92d476a7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/4ac7c26d9e94bffcf8fb810b184a72fa2ca5dc1524093bd6c24061ab53037ed1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/4bda2f821d5b508edcbaa999bb96c39013132bac937a19592a84bd6b75f7d86e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/4be550eea83dbb7648e060212b74d7d1a414aaa96523f3743fd1cbb7f4d68a0e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/4c118b3c9fc1bb32bb356504680ba8eb3e83e9a4eab655b3dda02041663f8e28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/4c8a588465cf7c8547e14a98229d4d5bac5892d9ad2c5150921b8b051b607d79.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/4d9d1654bf16e3bb1cb2e927bcbf29e4edd821767dbe948bf63d775dbd15e618.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/50289620a79c21954f9fa05f8b99fcd7be334c5da417ac53d03fce48be016d33.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/505984f39176b72c295abe7ef130b9b919c143fe4d0af3e793d0a16d48689b7b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/511bfabc4f8751ea323f44711a484c1c58e5729f3986659b29e12c890342b31d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/52b157d266ff6a6215af2512949e2bc2cac63a3b7eea3b9386fcbada9294cde5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/5366f0489f61a00515afc24b6df56ece96f6d10f518fa7e64aed8d9c2515b5bb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/5412c1b4497c325bbbb88491270d455f86d68dd76b2c4557a3cb0e6d77a19987.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/59c607c4bc559bf194f27516e9f207df19c3788991ef6060d3460f6f80e92e2c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/5a74edfbb90c1d1d5de2f0e33e2074a644d75e8fb4aaa84076b99333637bcb5f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/5ce0ad099e835d64778be21504ac936b3666308924f90e1c30e3d96b9627b1af.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/600bfaf9c8b982044cdf554401b02d4d029ddf73c765dd8ac19e1b1882164581.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/60213adb204b45db4c1b99ba4ee688130345a7c65b915346e8e0dd323e7c26fc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/62098de945c797bd383bc5cec6fd10be494c9dde0540fecc9e16f64c02167875.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/639734cce07a0e438ff488323b2a9554c026f9ff878e17ed15ff78f0970f0820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/64513b9076f8ec07f6f936014ca616feff2a503438b3bf9f4d6f14653b206828.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/65e9806a70269c2fc2adc026b60419aa70a0a70e5ca4266ed6ade1f0399cee68.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/6674a089cc9bd19098606dc1134989615c6546e1358c859c936b8534348ba11e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/68d34495ff9f7d71fb3b1f5026696d6dc891ebe576406d2410d65c20a36fa0fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/68d3c176abbdb7519a8ca9b9b8725f3c9ef8314e48dcfce6a9a6fd223ccb92e1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/69601f8e2b25e6589bd238f493ac7877dda44996d1be5c73d0846cf8b9e5c3f4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/6a2e00ca85b3d9ca1a22914e031f533bc0c6fc0ace92a000d9ba918103e1a9b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/6c18b7f924f439475c583febc1efe8be86a7d5f0c12783af61ad8533d124b61d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/6d61a55561a6b5ded435ec96344efd9aae9db53d80deed8002c7c1198ca42d0c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/6e8b143c5dbf6db49bbe0cebf0d4bc5c8b4bae326c99584cf347d83a53f37668.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/6fd94afd10de0157e98e23ecc924dac11682673f690b693f17584e5de88ce219.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/70822ab314afec31772f2bde3b987d6cc3814a98f6a8d158cec532b64ea62e65.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/710f2ae0ba771a157c6fd4b93ab4dc3b06b0c00e771a7ae59c86b6048134ca19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/71ea2633488b27dcbbd42cabfa0b64b511398c693ec5ebe8458d5ab1ab201f01.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/749c4b42ce4f32f175f559e21f5245f4c7b6aff4dd81670da44f50b0c04bce92.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/7541761c19aa101543f854d30232eb27665ea571df848139ab2e3f307c180ddb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/75a1c04b82258133e1ca24818b5759b5dfb04fcd42dfd8fe93a124347c7cd011.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/7769f2866e796cade0e02a000b0b4c35ef2136a911e5974e3acf08b4791e6d8b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/77ab65c6903cc2336ed03310adc85bc50efc2fad5d6303092aa1cb2e93c723b9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/787ce65b852d58557471754e48754ff1cb343ccf042c881e2e8808ab46dc0ef9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/788736c67e77e0a43a76ac1cc08645830d10a7b80599b9f3c803cdf5f8e35703.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/795115f18463f6a10715b6d5f12f73a5dc99d3151711ac9bdb7b133cee014600.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/79c8d0323008b38afc6f554fe2f1df61b910bc8afcf63796817960c87fd78044.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/79cdd3096d47c38a2f13e07f3e9ed5ecb23821fc935a92d5bcb892db975090a7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/7a4df9559290f1bb088d0b71dac8b7380664f62a715c8d7986ac134aa9aaa9cc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/7b81a3aa155494b66fe16e243d3ecf3b823afc544c1215f3b2fc63f6d81bdbe1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/7ca7f28c928fe2ebaff6792cd0e7149eec8051fa1a75f0d8481c7384c05e1096.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/7d0f6dc3c9d28036a955f584281cf3b1c5a5440af13d3ced118591fe13c81dd8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/7d26fa527e321cff76194c74666074350ada3a34e9de462980ff008dee995d6e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/7d48993577350c060e573e9b538d644e76a4c40ac19426a34a71766cd33efc29.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/7f6a11c0659d9165deb0694378657afe47a5c4df90e7a5b1d7637f600063420d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/81dd326d2b9d9ef9c06e417a89b253c96939c4efe7860e0b5290d27986f3ae74.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/81ee51edac0aae6abb7f1ca59f79c06b613d9cd1e2489360c912b2a75e771e23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/826b31fd8ca08e7f566034e1f678e7e17900954e5ff0afbacf7c4038ef7bd7fd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/82efd6215186d2d125ea35b30a4af93209903bfef1e03489b63194974445a9a2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/833fcf234f481f781a9b2dfdda987bb8a29180608554f02cc57d83bc97a72d3b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/8499e4a1b7fe1fd8a7145334fd6e0f7884028f5d3852d594dc4f3f283dea58df.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/84cee972f7d8e9decd14907b8ff0c61597ac2d9b281e743af16fd2fae8551636.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/8616cfdea084767c060ef0c77deb0d0139c909be6264365887b9831dbac05d85.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/8670036888d94c4168568c1e948b778aa34477d6fb6facfc4c348266f78e5430.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/869ed5ff9e13596192d08311c4bb651f3c5147da924e87ea82d9e27828379fbd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/86fc2fa3d66074a9b5ecc815748aa675c22465d6783c826c216f1a4d6add0928.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/8717deb40c55def2d3e0acd0078c2b6a656ac30be419b18070c4da8d60c8607d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/874d719f04c4a8492c8a9e97fbe5b1df9eb10d499efd2c5b3efdf2be8be21a11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/89bbfeac66984cd538d4d32aad46bfc27f2191b0d31f132b7feb36db36f3f1f6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/8a020d9d078009e3665612c96da2fab70e74208845038f596e98ee5316223e08.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/8a95ba408db7ac7d7dd5943c3fdb21b3bcc70817514bbbba4280a451bcb6ebb6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/8b0fddd1b351d28df502390d9a55aaf1682b7a57122d6eb865859a1bb25660ad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/8bd85eac4aec22edc3cefa32f3696dd54488288e72d98cdd537ff76950900e76.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/8c0793509326f2ceb3a89df1a63f0a583f4835165c045a143a12ee77ba996028.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/8e2263025abdb978d5738a5900603db459d1391ef0337a84b633a9de78e7d828.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/8f4d9f81ff7ea6f6294727d145be80429e85558970444d6399bf2dcf316b40c3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/90a0906b8c11a9cc27a5aba7e515ef9fb0bcb3965dd08aa34013fef9c46c9561.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/90e1a51958ff4f9b2a003564685cde9446648765d72e5ed28d1bf99492318f78.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/90f3bfbf78598d702f8feca284a8cdb935c5db8198ccf6a97e0b6bdcc97f5e8b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/929e4d5f6491c2bcaa85382ce5c73dfcd58b0c4a1a937f1a268e9bacafd9d5a9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9345dc8ed46c0083f5b512a592a909d3c8d6a045f9b1b3f825f4b2416b005322.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/93be79186d4d2fdef3b040764b5ec1f091fe16c3394652d77f56d0ae205a6122.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/94a49383d7ce862169ded87af8e0c2254154a37bf6c47f30a2a976000b250c86.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/94c2762167657ac79e055c8538c657b6bb81c6d42e6a49731b379ca0ba26657e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/96aa7243ba544ac68c357990f49f77c4368658b9c20e333b022b8c68322a96ab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9872a958cb599e99c7f663d35155552ba6cbc64c1c6cbbb8e61bca3f2275ab26.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/998f74cf4e6761b827a0790a01902beca04e58136d2caba6d8c95b8b1b9021c0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/99f2c825618aee9bc25bfb955c167098c8f48ccd8857e4d7f4e19a4dd7f47846.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9a3da11fa7c8c999db1bb8f6f19cc772f10a36bacd295fe2213c689077feb242.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9a66c80901230c52023959cb39b79f89f7ea0ce56cef4b0456a57a99596eccdd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9aa153ee65ada61f333644fd6867bc7816c1d9326adb8a4286739c4907b35c52.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9ac9ec2ed7e68e15f1a88be2fb0ec67a48e098f3bc14e379d783556e6ef7856c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9ad49337ad3e8f7cbcdea26ccc7297eb95b43dd3d8dbc40fac7d03ab3d0c857b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9c1dfd0c2e2e71df1ae47ace6e3ad900c6ec373034469e8730cb8b6ac98b9b27.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9c737ea66ed04b84a7bf8aac112534436382d371246f049fe30a97a722c7fdf8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9cf354818446362656091576da62f8765a96bcc5143dc48c4eafb73d4ee1ec21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9d5a4e0871a53b8e2122c5d43b9128e065431518cfc6c78fd49edf5fa4b957df.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9d65964996af01c0afd68d7f1b3869b5080d572d0d56b6d9184c767b18c8c1bf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9dd4acd3ed3382be9ea5d06d4ba4d4e1d6e5c997562e022db0cbe1f936b75270.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9e7cee778d52d0e39c09a7dff4c8d3b004543f6eaf0f1c2c5bc6c359cd7f55cc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9ef49ba1b6f7b07c76d6a0a0b8509dd31ece0ebdc0ea3e0db51e7bf272b043ee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9f1c155de8e2464dd396b583fc17fe88fdbdb70ddc694fdf9a89a88352c35134.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/9f478f5b99d32c2c759fcdbebbb25532cede4a80a82ef2674f00df6a0c8a1ce6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/a14654b35fc440f1eee744aa63d711238137a8f4b2a512b69d0a47cc32e6dc34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/a24c5fda3dccc041e8d926eeb4b8c62f5cdb8f5b93d7ecce83925813af8a333e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/a2a31ef2d4849d5f8c47828b120454c550dfd15710a53108e6d4357548adafab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/a4c7df8881dd5402bc99d20ec3063a85eeba6ea768a50eb0f80ae1dd9917f65d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/a6f27b30f7dc3fe803a552ec6a586280d9f2630803c47cf26bf76516493e08f0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/a78eea722a02276a58b183fb36a5350efd2ec47ef0893f7b39a505604b9b62c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/a8c80445d8ea7ec0d50610746b6c06c95fb25c154e0cf70c3a1ec80616d6f86a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/aa58f64618acc4209b13b0512fc4ded5c6b17814b12dce86a7f995a8b2d08d37.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/aaa453eb43239c770788c270f598eca9ca67ce71877b2107cc60853ac8941ad0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/aae77cc5d1bd6ab7eca9181680b99c60d12a2ab2b4956d6140ad0c4e1cd34799.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/abc073f646e8af40080a54c14580c2552310c77022570efb36235523fd4ba6c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/ac8004d1627d6b47d2f49e7bdc9d6ca478d44746297fd2a7732b8fa01bf5e940.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/af87bf5034dce99a8bf845155ce0280bf7799ea7ff62c94334f283e22ff7cd0d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/b004ee3f46a7fcae28a5e9fcfa8f942134a47528b3fa61d7a19f74c205509571.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/b107d0e7ab08e6959c6fe5cd13b4856488cd1b63f66e19f77f7056f423f26ebc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/b1ce0039c726cb6390147450aabcf45236afdebf43b40ce9d1c48fe376151db7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/b1d9c50ab88e2922dfb18293a0223a9b9632a8b0b071959ff3a5a77c850b5e3e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/b1fef6694b7e06b2bc9a4471bf7e4e6972eea33fdb565be06c85dfb71cf0328b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/b33793bf0db1c7f0d29ebb4c311ad33bb4e1f316dc4782fbb00ccf08ea0f7968.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/b46f0907c3c659dfc2b97d5b0f2f6f214839a1e4c966a414705b761bc3f18d1c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/b94b57d146dc0cf14b544107837b9b3c0332332c1cc54190714da7ef9d8a74b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/ba07606ad9f1ef6b9f48c80ae0e50c0923934db204d9b7813b8090d97e29407e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/ba7303d4463a8ddad9de2260174df5538d1750aa615471007d423c97fc9fd604.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/bbe529b79cb2dd368ec273ecf859828bfcd5cc5f72e9909fcab49561b8eb1c01.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/bd7749930cb03081e6da1b69ce78e4ba9129f012c86ec2ff834bc9deade47758.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/be5b92742de729432f0ebb035c06233a760e0dd99675bdffd616f99e33af6dea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c1e1959abee253babdd53f8fcb13ed3a424e24cce6c39e3f9294947983d11bae.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c26753d4d7e4e2e245f6c688dd792016ba40e61851392378fb7a2acc0a52b8f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c2d4a635bbfaf809c6cb405ee8cf803d405f5a26c2c30ff9fa380f090c9b7935.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c36243b53413d74ae68f8704e823f046ad07dc4c02f0e2e761545d1b106a709e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c3e3bd8b220c6bcd7ce0f1cc2a97e456e1f56f7abfd1cd8fe81a355267affcfc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c400d215dec4685786240b9d14a6d0a52f2490a2b78b1e84c784b323ed17490d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c48592fd289e1a6f0b7e52f52ffe30aba12999a4739bad159f36778477e24a95.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c568268b91992fa2cc4e4d88c64db1ce4cb2e411dc323d8f2abfa4dd5b774cf3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c58a7e6dc821e0e56bb180708363cccd5867c3680d62b4e188d5db0c05f2a0a2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c630541aa00c1ec4066d4b937aae06a4baa12b4822b08ff4e15e962763ef46d9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c765c84b9abd02b2bc9d8a2819fe4e02e139d27cc6f445c8acc03373e46b19bc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c765f3b885b302aaf96bd325be760d663f23e51dc586370775bd00248bf67559.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/c9f65b1c55cc8e7754335eb3f3ad444aa5a22294535b26810b898ce8f957b433.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/cb01cd56c2ca316caad4cfb4334b131dd05761c54978ca7494d40b8e4f037deb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/cb45463fab0bcf253a342e84d94cbeb6f19594fd91c1f888cae6f11662c1cdd3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/cdd7db5cccedff662308f44962484d9e8929ba09245eeab7399d9ef57c45874e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d09dfbfbd36ed53e4ce4c4eec1cbde9298a945ddca736cb73076f86cfd3635e1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d324e13bac071d2b88534fda81a50613f205311b13ad10736010285ef18ae5ab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d3651ed71c0722be7896d8f9c9b94e3e80de589b1cd55c4cf7e3bffc9d940ce0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d3855b0a736cbe3cb4128b090255028ad6dcb8e31065331fb2131be547b36250.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d38759a28cc011387cb680e6130d2040dc9873729c94718d2458e11dccdedee2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d38b9691c1fe00f3f3b0f9fe597b672aaa152f0b22567005d1e8aa5a3c4bf2d3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d3be020025dde5797991e0f219875fe02c3607416705fe4a4d2a0dd66b6d76ff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d4274a88f7489fe35bd9b969fca4d74ef54cedabe0aadf89d664d568789cf1c8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d528172c0a90a1370e701f70f58c1bcc3138340de7cdb669f03aef66bbd10b40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d6ca3db1b96c633cef43ff7d622f2597f83c93ae483c9b58cfc04a5cf3146896.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d802c3361c308a35ed0c8b74f3bffe3a50a8168f54515bc6fc147ec7b81b5ef6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d8a741dbf0dc0486aa222d1d200c460e3209d9b7a869d70701d75d0fe2d3c9b6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d8af7881a82941394a177a422d2612371b6278ce405cce85ef9fee1275a2f0ae.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d8b1070929088ffc8127846d6b7af733492cf3ab8c5f8a86b0e4ddcf001ac409.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d928087a43a45f2bcea03c8181b6dbcd144e8c84cb360a9acd0aa0b69914e7aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/d9aacfb1421c12e9f46803793ea28ee7400b9f3b9f88a2a6c4fab70812126cff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/ddb4107a7fa14045dbace766732ad683dd5626bf7923440535b7d4f38dd93273.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/dfe1d926eda236c2dfd485d870047d891a44399200a0a23ea98bf12866b37104.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/e0ef06056739636dbdb7c61adcb4addc741787e43544511e61b39e7692d667d4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/e101bf90989f6af67f0102629e1e5a23527a1421c176a0a49bf042a5c46516ab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/e17cd090e36ddaf2d6bc7e133352253f00299280df8c6e31b4a9bc634ab14699.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/e3dc0cdb29b06d2203dee2f9dc49060256e60e1326308bd85da54000bc5ffa8e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/e69e553e9c0ca80dd743cc4420930d3331f3fd6a35d06280363331960212bd49.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/e701e658f2d0ed9987d4a321a7792c349cee8445cdfe0ebbac4d584e65f0401e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/e7be9252b60de9b9b61f0f8eec0dbef669dcd8bfdfb1b434ca7b27100890cb5a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/e8160d6fd06308557f88833938e2d5ed32aa0745160c4a9be7b32594dcf65a1d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/eac1e40487d0fbfc5050f046b871f15873d6987c9c8f22ac08bdd1fef18d5bb8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/ee3386e5c78437acd64165b72883cc371ff02c957bc1252c31735b73697143df.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/f0ed0028eb76bee07c9519ac58f2963ba36987bd3130dc1e0b339bb9987e703d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/f19fbd88f3a273f2bb5e63e62746d103fc15ce28335fad05e5610cf6f21fd373.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/f201e90400acce4b4c217862a4d4d9bb8ec1b4d097fa3a90ee4433939c267ef4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/f25953dbc9f24ca6cc4fcfd7544952eac33684df6b79786c959104045ce3f05c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/f3b14ad7da0c9e69de600eadae919034a1984e9c7cdcdfe6b76ad7d2aec97045.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/f3ba3717f9ff846f040a1d7caffabd1ca946ba0adecc94c8e8f7894dd8127905.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/f6e3b2616de3498e578d90ae41005ed6487dd7105eea732edb13ccbdb5945b55.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/f7f2b1d5011364b62cddacb7c466d13423f30ea4bd23ae914a3bd1934e129f9c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/f80b86a35a432ab0c8893d94e831144a5fe512183ee7bdeef582def53030822f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/f8a0134df94b93ba6c8c9d0754a113bc6518e991d1e1feb490095a3e228b87da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/f9ebaad164e6092524ccf4a7cb9ec7624552028495cfda15e250f87e27cda564.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/fcc41a74bd758005c9d307e773cf7549c4562839405a7cae13fc7befd543d618.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/fed9569cdefca6c049479ff7d8e6814fd17b73a3fd7a594fff02c4969ef693a8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/ff383e1293a8a059148db36d234072a9b823436f059f3b120e0d0c783be9f843.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/ff7746b01a9a22d6f3cbf527eec6e6025603b9b37856aa6b7e094c80999fcc1d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/babel-loader/ff8fb602cf4e39be3cc0ae3bcaeeb32973c2de7bfd616682ec0e705122561cb4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/11.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/12.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/6.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/9.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/src/components/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/src/components/Productos.js" beforeDir="false" afterPath="$PROJECT_DIR$/APARA/APARA-project/APARA/apara-app/src/components/Productos.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../APARA\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/APARA/APARA-project" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Juanpa-jpg&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ang-201/APARA-project&quot;,
+    &quot;accountId&quot;: &quot;ed5b2454-8554-4d98-a607-695fa9395edc&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2xBY2nHma36XgYPL05QB8tR1rrt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/juanp/Documents/Aps web/APARA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0b738fc-34b6-4021-8898-a2b76d4e3b6a" name="Changes" comment="" />
+      <created>1747412729028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747412729028</updated>
+      <workItem from="1747412730458" duration="9065000" />
+      <workItem from="1747421900828" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
