@@ -1,3 +1,11 @@
+
+/* 
+
+CREATE DATABASE computadoras
+\c computadoras
+
+*/
+
 CREATE TABLE rol (
 	idRol NUMERIC(2,0) NOT NULL,
 	tipoRol CHAR(1) NOT NULL,
