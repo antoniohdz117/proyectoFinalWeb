@@ -39,4 +39,5 @@ public class FormaPagoController {
         formaPagoService.deleteById(id);
         return ResponseEntity.noContent().build();
     }
+
 }
