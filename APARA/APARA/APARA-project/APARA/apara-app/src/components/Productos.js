@@ -1,134 +1,171 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
-const products = [
-  {
-    id: 1,
-    name: 'Procesador AMD Ryzen 5 5600X',
-    category: 'CPU',
-    brand: 'AMD',
-    description: '6 núcleos, 12 hilos, excelente rendimiento para gaming.',
-    image: 'https://via.placeholder.com/150',
-    price: '$180',
-  },
-  {
-    id: 2,
-    name: 'Tarjeta Gráfica NVIDIA RTX 3060',
-    category: 'GPU',
-    brand: 'NVIDIA',
-    description: '8GB GDDR6, ideal para juegos en 1080p y 1440p.',
-    image: 'https://via.placeholder.com/150',
-    price: '$350',
-  },
-  {
-    id: 3,
-    name: 'Memoria RAM ASUS 16GB',
-    category: 'RAM',
-    brand: 'ASUS',
-    description: '3200MHz DDR4 de alto rendimiento.',
-    image: 'https://via.placeholder.com/150',
-    price: '$70',
-  },
-  {
-    id: 4,
-    name: 'Placa Madre ASUS Prime B550M',
-    category: 'Motherboards',
-    brand: 'ASUS',
-    description: 'Compatibilidad con Ryzen, diseño compacto.',
-    image: 'https://via.placeholder.com/150',
-    price: '$120',
-  },
-  {
-    id: 5,
-    name: 'Fuente de Poder Corsair 650W',
-    category: 'Fuentes de poder',
-    brand: 'INTEL',
-    description: 'Fuente confiable con certificación 80 Plus Bronze.',
-    image: 'https://via.placeholder.com/150',
-    price: '$90',
-  },
-  {
-    id: 6,
-    name: 'Mouse Gamer RGB',
-    category: 'Otros componentes',
-    brand: 'ASUS',
-    description: 'Sensor preciso, iluminación RGB personalizable.',
-    image: 'https://via.placeholder.com/150',
-    price: '$45',
-  },
+const mockProductos = [
+    {
+        id: 1,
+        nombre: 'AMD Ryzen 5 5600X',
+        categoria: 'Procesadores',
+        marca: 'AMD',
+        precio: 180,
+        descripcion: '6 núcleos, 12 hilos, excelente rendimiento para gaming',
+    },
+    {
+        id: 2,
+        nombre: 'ASUS Prime B550M',
+        categoria: 'Tarjetas Madre',
+        marca: 'ASUS',
+        precio: 120,
+        descripcion: 'Compatibilidad con Ryzen, diseño compacto',
+    },
+    {
+        id: 3,
+        nombre: 'NVIDIA RTX 3060',
+        categoria: 'Tarjetas Gráficas',
+        marca: 'NVIDIA',
+        precio: 350,
+        descripcion: '8GB GDDR6, ideal para jugar en 1080p y 1440p',
+    },
+    {
+        id: 4,
+        nombre: 'Corazel 650W',
+        categoria: 'Fuentes de Poder',
+        marca: 'Corazel',
+        precio: 90,
+        descripcion: 'Fuente confiable con certificación 80 Plus Bronze',
+    },
+    {
+        id: 5,
+        nombre: 'ASUS 16GB',
+        categoria: 'Memoria RAM',
+        marca: 'ASUS',
+        precio: 70,
+        descripcion: '3200MHz DDR4 de alta rendimiento',
+    },
+    {
+        id: 6,
+        nombre: 'Mouse Gamer RGB',
+        categoria: 'Periféricos',
+        marca: 'Genérico',
+        precio: 45,
+        descripcion: 'Sensor preciso, iluminación RGB personalizable',
+    },
 ];
-
-const categories = [
-  'CPU',
-  'GPU',
-  'RAM',
-  'Motherboards',
-  'Fuentes de poder',
-  'Otros componentes',
-];
-
-const brands = ['AMD', 'NVIDIA', 'ASUS', 'INTEL'];
 
 function Productos() {
-  const [selectedCategory, setSelectedCategory] = useState('');
-  const [selectedBrand, setSelectedBrand] = useState('');
+    const location = useLocation();
+    const navigate = useNavigate();
 
-  const filteredProducts = products.filter((product) => {
-    const matchCategory = selectedCategory ? product.category === selectedCategory : true;
-    const matchBrand = selectedBrand ? product.brand === selectedBrand : true;
-    return matchCategory && matchBrand;
-  });
+    const [productosFiltrados, setProductosFiltrados] = useState([]);
+    const [carrito, setCarrito] = useState(() => {
+        // Carga carrito de localStorage para persistencia
+        const guardado = localStorage.getItem('carrito');
+        return guardado ? JSON.parse(guardado) : [];
+    });
 
-  return (
-      <div className="p-6 bg-gray-100 min-h-screen">
-        <h2 className="text-3xl font-bold text-center text-blue-900 mb-8">Componentes para Armar tu PC</h2>
+    const query = new URLSearchParams(location.search);
+    const filtroCategoria = query.get('categoria');
+    const filtroMarca = query.get('marca');
 
-        {/* Filtros */}
-        <div className="mb-6 flex flex-col md:flex-row gap-4 justify-center">
-          <select
-              value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-              className="p-2 border rounded-md"
-          >
-            <option value="">Todas las categorías</option>
-            {categories.map((cat) => (
-                <option key={cat} value={cat}>{cat}</option>
-            ))}
-          </select>
+    useEffect(() => {
+        let productos = [...mockProductos];
 
-          <select
-              value={selectedBrand}
-              onChange={(e) => setSelectedBrand(e.target.value)}
-              className="p-2 border rounded-md"
-          >
-            <option value="">Todas las marcas</option>
-            {brands.map((brand) => (
-                <option key={brand} value={brand}>{brand}</option>
-            ))}
-          </select>
+        if (filtroCategoria) {
+            productos = productos.filter(
+                (p) => p.categoria.toLowerCase() === filtroCategoria.toLowerCase()
+            );
+        }
+
+        if (filtroMarca) {
+            productos = productos.filter(
+                (p) => p.marca.toLowerCase() === filtroMarca.toLowerCase()
+            );
+        }
+
+        setProductosFiltrados(productos);
+    }, [filtroCategoria, filtroMarca]);
+
+    // Función para agregar producto al carrito
+    const agregarAlCarrito = (producto) => {
+        if (!carrito.find((p) => p.id === producto.id)) {
+            const nuevoCarrito = [...carrito, producto];
+            setCarrito(nuevoCarrito);
+            localStorage.setItem('carrito', JSON.stringify(nuevoCarrito));
+        }
+    };
+
+    // Función para eliminar producto del carrito
+    const eliminarDelCarrito = (id) => {
+        const nuevoCarrito = carrito.filter((p) => p.id !== id);
+        setCarrito(nuevoCarrito);
+        localStorage.setItem('carrito', JSON.stringify(nuevoCarrito));
+    };
+
+    return (
+        <div className="p-8">
+            <h2 className="text-3xl font-bold mb-6 text-blue-900">Productos Disponibles</h2>
+
+            {productosFiltrados.length === 0 ? (
+                <p className="text-gray-600">Selecciona una categoría o marca para ver productos.</p>
+            ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {productosFiltrados.map((producto) => (
+                        <div
+                            key={producto.id}
+                            className="border p-4 rounded shadow hover:shadow-lg transition"
+                        >
+                            <h3 className="text-xl font-semibold mb-2">{producto.nombre}</h3>
+                            <p className="text-gray-700 capitalize">
+                                Categoría: {producto.categoria} <br />
+                                Marca: {producto.marca}
+                            </p>
+                            <p className="text-gray-700">{producto.descripcion}</p>
+                            <p className="font-bold mt-2">${producto.precio}</p>
+                            <button
+                                className="mt-4 px-4 py-2 bg-blue-900 text-white rounded hover:bg-blue-800 disabled:opacity-50"
+                                onClick={() => agregarAlCarrito(producto)}
+                                disabled={carrito.some((p) => p.id === producto.id)}
+                            >
+                                {carrito.some((p) => p.id === producto.id) ? "Agregado" : "Agregar al carrito"}
+                            </button>
+                        </div>
+                    ))}
+                </div>
+            )}
+
+            {/* Carrito */}
+            {carrito.length > 0 && (
+                <div className="mt-10 border-t pt-6">
+                    <h3 className="text-2xl font-semibold mb-4 text-blue-900">Carrito de compra</h3>
+                    <ul className="space-y-3">
+                        {carrito.map((item) => (
+                            <li
+                                key={item.id}
+                                className="flex justify-between items-center border p-3 rounded shadow"
+                            >
+                                <div>
+                                    <p className="font-semibold">{item.nombre}</p>
+                                    <p>${item.precio}</p>
+                                </div>
+                                <button
+                                    className="px-3 py-1 bg-red-600 text-white rounded hover:bg-red-500"
+                                    onClick={() => eliminarDelCarrito(item.id)}
+                                >
+                                    Eliminar
+                                </button>
+                            </li>
+                        ))}
+                    </ul>
+                    <button
+                        className="mt-6 w-full md:w-auto bg-green-600 text-white py-3 px-6 rounded hover:bg-green-500 transition"
+                        onClick={() => navigate('/compra')}
+                    >
+                        Finalizar compra ({carrito.length} productos)
+                    </button>
+                </div>
+            )}
         </div>
-
-        {/* Productos filtrados */}
-        {filteredProducts.length > 0 ? (
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {filteredProducts.map((item) => (
-                  <div key={item.id} className="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition">
-                    <img src={item.image} alt={item.name} className="w-full h-40 object-cover rounded-md mb-4" />
-                    <h3 className="text-xl font-semibold text-blue-900">{item.name}</h3>
-                    <p className="text-gray-700 mt-2">{item.description}</p>
-                    <div className="mt-4 flex justify-between items-center">
-                      <span className="text-lg font-bold text-green-600">{item.price}</span>
-                      <button className="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800">
-                        Ver más
-                      </button>
-                    </div>
-                  </div>
-              ))}
-            </div>
-        ) : (
-            <p className="text-center text-gray-600 mt-8">No hay productos que coincidan con los filtros seleccionados.</p>
-        )}
-      </div>
-  );
+    );
 }
 
 export default Productos;

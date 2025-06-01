@@ -1,31 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Compra = () => {
-    const selectedProducts = [
-        {
-            id: 1,
-            name: 'Procesador AMD Ryzen 5 5600X',
-            description: '6 núcleos, 12 hilos, excelente rendimiento para gaming.',
-            image: 'https://via.placeholder.com/150',
-            price: 180,
-        },
-        {
-            id: 2,
-            name: 'Tarjeta Gráfica NVIDIA RTX 3060',
-            description: '8GB GDDR6, ideal para juegos en 1080p y 1440p.',
-            image: 'https://via.placeholder.com/150',
-            price: 350,
-        },
-        {
-            id: 3,
-            name: 'Memoria RAM Corsair Vengeance 16GB (2x8)',
-            description: '3200MHz DDR4, diseño elegante y alto rendimiento.',
-            image: 'https://via.placeholder.com/150',
-            price: 70,
-        },
-    ];
+    const [selectedProducts, setSelectedProducts] = useState([]);
 
-    const total = selectedProducts.reduce((acc, prod) => acc + prod.price, 0);
+    useEffect(() => {
+        const carritoGuardado = JSON.parse(localStorage.getItem('carrito')) || [];
+        setSelectedProducts(carritoGuardado);
+    }, []);
+
+    const total = selectedProducts.reduce((acc, prod) => acc + prod.precio, 0);
 
     const [addresses, setAddresses] = useState([]);
     const [cards, setCards] = useState([]);
@@ -60,16 +43,24 @@ const Compra = () => {
                 <div className="bg-blue-100 rounded-xl p-6 flex-1">
                     <h3 className="text-2xl font-semibold text-blue-900 mb-4">Componentes de tu PC</h3>
                     <div className="space-y-4">
-                        {selectedProducts.map((item) => (
-                            <div key={item.id} className="bg-white p-4 rounded-lg shadow-md flex gap-4">
-                                <img src={item.image} alt={item.name} className="w-24 h-24 object-cover rounded" />
-                                <div className="flex flex-col justify-between">
-                                    <h4 className="text-lg font-bold text-blue-900">{item.name}</h4>
-                                    <p className="text-sm text-gray-700">{item.description}</p>
-                                    <span className="text-green-600 font-semibold mt-2">${item.price}</span>
+                        {selectedProducts.length === 0 ? (
+                            <p className="text-gray-700">No hay productos en el carrito.</p>
+                        ) : (
+                            selectedProducts.map((item) => (
+                                <div key={item.id} className="bg-white p-4 rounded-lg shadow-md flex gap-4">
+                                    <img
+                                        src="https://via.placeholder.com/150"
+                                        alt={item.nombre}
+                                        className="w-24 h-24 object-cover rounded"
+                                    />
+                                    <div className="flex flex-col justify-between">
+                                        <h4 className="text-lg font-bold text-blue-900">{item.nombre}</h4>
+                                        <p className="text-sm text-gray-700">{item.descripcion}</p>
+                                        <span className="text-green-600 font-semibold mt-2">${item.precio}</span>
+                                    </div>
                                 </div>
-                            </div>
-                        ))}
+                            ))
+                        )}
                         <div className="text-right text-xl font-bold text-blue-900 pt-4 border-t border-blue-300 mt-6">
                             Total: ${total}
                         </div>
