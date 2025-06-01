@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import UsuarioDashboard from './UsuarioDashboard'; // Ajusta la ruta si es necesario
+import UsuarioDashboard from './UsuarioDashboard';
 
 const categorias = [
   'Procesadores',
@@ -21,11 +21,9 @@ const isValidEmail = (email) => {
 function Login() {
   const navigate = useNavigate();
 
-  // Estados para menús desplegables
   const [showMarcas, setShowMarcas] = useState(false);
   const [showCategorias, setShowCategorias] = useState(false);
 
-  // Estados login
   const [loginEmail, setLoginEmail] = useState('');
   const [loginPassword, setLoginPassword] = useState('');
   const [loginError, setLoginError] = useState('');
@@ -34,7 +32,6 @@ function Login() {
   const [loginAttempts, setLoginAttempts] = useState(0);
   const [isBlocked, setIsBlocked] = useState(false);
 
-  // Estados registro
   const [showRegistroForm, setShowRegistroForm] = useState(false);
   const [showLoginForm, setShowLoginForm] = useState(false);
   const [registerEmail, setRegisterEmail] = useState('');
@@ -47,14 +44,12 @@ function Login() {
   const [registerError, setRegisterError] = useState('');
   const [registerSuccess, setRegisterSuccess] = useState(false);
 
-  // Mock usuario para login
   const mockUser = {
     email: 'usuario@ejemplo.com',
     password: '123456',
     username: 'Juan Pérez',
   };
 
-  // Funciones para navegar al seleccionar
   const seleccionarCategoria = (categoria) => {
     navigate(`/productos?categoria=${encodeURIComponent(categoria)}`);
     setShowCategorias(false);
@@ -65,7 +60,6 @@ function Login() {
     setShowMarcas(false);
   };
 
-  // Login handler
   const handleLogin = (e) => {
     e.preventDefault();
 
@@ -87,7 +81,9 @@ function Login() {
 
       if (newAttempts >= 3) {
         setIsBlocked(true);
-        setLoginError(`Demasiados intentos. Se ha enviado un correo a ${loginEmail || '[correo]'} para restablecer la contraseña.`);
+        setLoginError(
+            `Demasiados intentos. Se ha enviado un correo a ${loginEmail || '[correo]'} para restablecer la contraseña.`
+        );
         setTimeout(() => {
           setIsBlocked(false);
           setLoginAttempts(0);
@@ -101,12 +97,18 @@ function Login() {
     }
   };
 
-  // Registro handler
   const handleRegister = (e) => {
     e.preventDefault();
 
-    if (!registerEmail || !registerPassword || !registerUsername || !registerName || !registerApellidoPaterno || !registerApellidoMaterno || !registerNacimiento) {
-      setRegisterError('Todos los campos son obligatorios');
+    if (
+        !registerEmail ||
+        !registerPassword ||
+        !registerUsername ||
+        !registerName ||
+        !registerApellidoPaterno ||
+        !registerNacimiento
+    ) {
+      setRegisterError('Todos los campos excepto Apellido Materno son obligatorios');
       return;
     }
 
@@ -197,15 +199,15 @@ function Login() {
         <main className="flex flex-col items-center justify-center flex-grow text-center">
           <h1 className="text-4xl font-bold text-blue-900 mb-8">A.P.A.R.A</h1>
 
-          {/* Usuario logueado */}
           {loggedInUser && (
               <>
-                <p className="mb-4 text-green-600 text-lg font-semibold">Bienvenido, {loggedInUser} 👋</p>
+                <p className="mb-4 text-green-600 text-lg font-semibold">
+                  Bienvenido, {loggedInUser} 👋
+                </p>
                 <UsuarioDashboard user={loggedInUser} />
               </>
           )}
 
-          {/* Botones Login / Crear cuenta */}
           {!loggedInUser && (
               <div className="space-x-4">
                 <button
@@ -229,7 +231,6 @@ function Login() {
               </div>
           )}
 
-          {/* Formulario Login */}
           {showLoginForm && (
               <div className="mt-8 bg-white border border-blue-900 rounded p-6 shadow-md w-80">
                 <h2 className="text-xl font-bold mb-4 text-blue-900">Iniciar Sesión</h2>
@@ -268,7 +269,6 @@ function Login() {
               </div>
           )}
 
-          {/* Formulario Registro */}
           {showRegistroForm && (
               <div className="mt-8 bg-white border border-blue-900 rounded p-6 shadow-md w-96 text-left">
                 <h2 className="text-xl font-bold mb-4 text-blue-900">Crear Cuenta</h2>
@@ -310,7 +310,7 @@ function Login() {
                   />
                   <input
                       type="text"
-                      placeholder="Apellido Materno"
+                      placeholder="Apellido Materno (opcional)"
                       className="w-full mb-3 p-2 border rounded"
                       value={registerApellidoMaterno}
                       onChange={(e) => setRegisterApellidoMaterno(e.target.value)}

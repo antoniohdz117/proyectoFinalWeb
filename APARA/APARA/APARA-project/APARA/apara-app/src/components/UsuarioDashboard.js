@@ -1,15 +1,25 @@
+// UsuarioDashboard.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function UsuarioDashboard({ user }) {
     const navigate = useNavigate();
 
-    const handleNavigate = () => {
+    const handleNavigatePerfil = () => {
         navigate('/perfil');
     };
 
-    const cardClass = "bg-white p-4 rounded-xl shadow-md hover:shadow-lg cursor-pointer transition duration-300";
-    const titleClass = "text-xl font-semibold text-blue-800 hover:underline";
+    const handleNavigateHistorial = () => {
+        navigate('/historial');
+    };
+
+    const handleNavigateGestion = () => {
+        navigate('/gestion');
+    };
+
+    const cardClass =
+        'bg-white p-4 rounded-xl shadow-md hover:shadow-lg cursor-pointer transition duration-300';
+    const titleClass = 'text-xl font-semibold text-blue-800 hover:underline';
 
     return (
         <div className="p-6 bg-gray-100 min-h-screen">
@@ -18,7 +28,7 @@ function UsuarioDashboard({ user }) {
             </h2>
 
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                <div className={cardClass} onClick={handleNavigate}>
+                <div className={cardClass} onClick={handleNavigatePerfil}>
                     <h3 className={titleClass}>Perfil</h3>
                     <ul className="mt-2 space-y-1 text-gray-700">
                         <li>📝 Consultar información</li>
@@ -27,7 +37,7 @@ function UsuarioDashboard({ user }) {
                     </ul>
                 </div>
 
-                <div className={cardClass}>
+                <div className={cardClass} onClick={handleNavigateHistorial}>
                     <h3 className={titleClass}>Historial</h3>
                     <ul className="mt-2 space-y-1 text-gray-700">
                         <li>📦 Ver compras anteriores</li>
@@ -35,7 +45,7 @@ function UsuarioDashboard({ user }) {
                     </ul>
                 </div>
 
-                <div className={cardClass}>
+                <div className={cardClass} onClick={handleNavigateGestion}>
                     <h3 className={titleClass}>Gestión</h3>
                     <ul className="mt-2 space-y-1 text-gray-700">
                         <li>⚙️ Actualizar preferencias</li>
