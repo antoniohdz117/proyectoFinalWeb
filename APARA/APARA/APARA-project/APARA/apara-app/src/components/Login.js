@@ -183,7 +183,9 @@ function Login() {
             )}
           </div>
 
-          <button className="font-bold">Contact</button>
+          <button className="font-bold" onClick={() => navigate('/contacto')}>
+            Contact
+          </button>
           <button
             onClick={() => navigate('/productos')}
             className="bg-blue-900 text-white rounded px-4 py-1 hover:bg-blue-800"
@@ -230,7 +232,15 @@ function Login() {
 
         {showLoginForm && (
           <div className="mt-8 bg-white border border-blue-900 rounded p-6 shadow-md w-80">
-            <h2 className="text-xl font-bold mb-4 text-blue-900">Iniciar Sesión</h2>
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-xl font-bold text-blue-900">Iniciar Sesión</h2>
+              <button
+                onClick={() => setShowLoginForm(false)}
+                className="text-blue-900 border border-blue-900 rounded px-2 py-1 text-sm hover:bg-blue-100"
+              >
+                Cerrar
+              </button>
+            </div>
             <form onSubmit={handleLogin}>
               <input
                 type="email"
@@ -268,7 +278,15 @@ function Login() {
 
         {showRegistroForm && (
           <div className="mt-8 bg-white border border-blue-900 rounded p-6 shadow-md w-96 text-left">
-            <h2 className="text-xl font-bold mb-4 text-blue-900">Crear Cuenta</h2>
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-xl font-bold text-blue-900">Crear Cuenta</h2>
+              <button
+                onClick={() => setShowRegistroForm(false)}
+                className="text-blue-900 border border-blue-900 rounded px-2 py-1 text-sm hover:bg-blue-100"
+              >
+                Cerrar
+              </button>
+            </div>
             <form onSubmit={handleRegister}>
               <input
                 type="email"
