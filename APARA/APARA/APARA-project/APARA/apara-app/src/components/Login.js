@@ -13,10 +13,7 @@ const categorias = [
 
 const marcas = ['Intel', 'AMD', 'NVIDIA', 'ASUS'];
 
-const isValidEmail = (email) => {
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return emailRegex.test(email);
-};
+const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
 function Login() {
   const navigate = useNavigate();
@@ -49,6 +46,13 @@ function Login() {
     username: 'Juan Pérez',
   };
 
+  useEffect(() => {
+    const savedUser = localStorage.getItem('loggedInUser');
+    if (savedUser) {
+      setLoggedInUser(savedUser);
+    }
+  }, []);
+
   const seleccionarCategoria = (categoria) => {
     navigate(`/productos?categoria=${encodeURIComponent(categoria)}`);
     setShowCategorias(false);
@@ -71,6 +75,7 @@ function Login() {
 
     if (loginEmail === mockUser.email && loginPassword === mockUser.password) {
       setLoggedInUser(mockUser.username);
+      localStorage.setItem('loggedInUser', mockUser.username);
       setLoginError('');
       setLoginAttempts(0);
       setShowLoginForm(false);
@@ -330,10 +335,8 @@ function Login() {
                 value={registerApellidoMaterno}
                 onChange={(e) => setRegisterApellidoMaterno(e.target.value)}
               />
-
               {registerError && <p className="text-red-600 mb-2">{registerError}</p>}
               {registerSuccess && <p className="text-green-600 mb-2">Registro exitoso!</p>}
-
               <button
                 type="submit"
                 className="w-full py-2 rounded bg-blue-900 text-white hover:bg-blue-800"

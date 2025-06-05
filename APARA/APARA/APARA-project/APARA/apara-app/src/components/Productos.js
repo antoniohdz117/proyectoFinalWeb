@@ -9,6 +9,7 @@ const mockProductos = [
         marca: 'AMD',
         precio: 180,
         descripcion: '6 núcleos, 12 hilos, excelente rendimiento para gaming',
+        imagen: '/imagenes/procesador.jpg',
     },
     {
         id: 2,
@@ -17,6 +18,7 @@ const mockProductos = [
         marca: 'ASUS',
         precio: 120,
         descripcion: 'Compatibilidad con Ryzen, diseño compacto',
+        imagen: '/imagenes/tarjeta-madre.jpg',
     },
     {
         id: 3,
@@ -25,6 +27,7 @@ const mockProductos = [
         marca: 'NVIDIA',
         precio: 350,
         descripcion: '8GB GDDR6, ideal para jugar en 1080p y 1440p',
+        imagen: '/imagenes/tarjeta-grafica.jpg',
     },
     {
         id: 4,
@@ -33,6 +36,7 @@ const mockProductos = [
         marca: 'Corazel',
         precio: 90,
         descripcion: 'Fuente confiable con certificación 80 Plus Bronze',
+        imagen: '/imagenes/corazel.jpg',
     },
     {
         id: 5,
@@ -41,6 +45,7 @@ const mockProductos = [
         marca: 'ASUS',
         precio: 70,
         descripcion: '3200MHz DDR4 de alta rendimiento',
+        imagen: '/imagenes/RAM.jpg',
     },
     {
         id: 6,
@@ -49,6 +54,7 @@ const mockProductos = [
         marca: 'Genérico',
         precio: 45,
         descripcion: 'Sensor preciso, iluminación RGB personalizable',
+        imagen: '/imagenes/mouse.jpg',
     },
 ];
 
@@ -58,7 +64,6 @@ function Productos() {
 
     const [productosFiltrados, setProductosFiltrados] = useState([]);
     const [carrito, setCarrito] = useState(() => {
-        // Carga carrito de localStorage para persistencia
         const guardado = localStorage.getItem('carrito');
         return guardado ? JSON.parse(guardado) : [];
     });
@@ -85,7 +90,6 @@ function Productos() {
         setProductosFiltrados(productos);
     }, [filtroCategoria, filtroMarca]);
 
-    // Función para agregar producto al carrito
     const agregarAlCarrito = (producto) => {
         if (!carrito.find((p) => p.id === producto.id)) {
             const nuevoCarrito = [...carrito, producto];
@@ -94,7 +98,6 @@ function Productos() {
         }
     };
 
-    // Función para eliminar producto del carrito
     const eliminarDelCarrito = (id) => {
         const nuevoCarrito = carrito.filter((p) => p.id !== id);
         setCarrito(nuevoCarrito);
@@ -114,6 +117,11 @@ function Productos() {
                             key={producto.id}
                             className="border p-4 rounded shadow hover:shadow-lg transition"
                         >
+                            <img
+                                src={producto.imagen}
+                                alt={producto.nombre}
+                                className="w-full h-40 object-cover mb-3 rounded"
+                            />
                             <h3 className="text-xl font-semibold mb-2">{producto.nombre}</h3>
                             <p className="text-gray-700 capitalize">
                                 Categoría: {producto.categoria} <br />
@@ -133,7 +141,6 @@ function Productos() {
                 </div>
             )}
 
-            {/* Carrito */}
             {carrito.length > 0 && (
                 <div className="mt-10 border-t pt-6">
                     <h3 className="text-2xl font-semibold mb-4 text-blue-900">Carrito de compra</h3>
